@@ -1,0 +1,22 @@
+
+DELETE http://localhost:3002/api/persons/2
+
+
+###
+GET http://localhost:3002/api/persons
+ 
+
+###
+POST http://localhost:3002/api/persons
+Content-Type: application/json
+
+{
+"name": "helk ",
+"number": "6568678"
+
+}
+
+
+
+
+

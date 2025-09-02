@@ -1,0 +1,29 @@
+{
+  "name": "fullstackdev_backend",
+  "version": "1.0.0",
+  "description": "Backend repertoire telephonique part1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucresse-farelle/FullStackDev_Backend.git"
+  },
+  "author": "KEMMEGNI LUCRESSE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucresse-farelle/FullStackDev_Backend/issues"
+  },
+  "homepage": "https://github.com/lucresse-farelle/FullStackDev_Backend#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "http-status-codes": "^2.3.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
